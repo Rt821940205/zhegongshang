@@ -1,0 +1,100 @@
+@import "@/uni_modules/uview-ui/theme.scss";
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color: #333; //基本色
+$uni-text-color-inverse: #fff; //反色
+$uni-text-color-grey: #999; //辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable: #c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color: #ffffff;
+$uni-bg-color-grey: #f8f8f8;
+$uni-bg-color-hover: #f1f1f1; //点击状态颜色
+$uni-bg-color-mask: rgba(0, 0, 0, 0.4); //遮罩颜色
+$uni-bg-card-1: rgba(220, 221, 222, 0.26); // 关注学者卡片背景
+
+/* 边框颜色 */
+$uni-border-color: #c8c7cc;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-mini: 18rpx;
+$uni-font-size-sm: 24rpx;
+$uni-font-size-base: 28rpx;
+$uni-font-size-lg: 32rpx;
+$uni-font-size-lm: 36rpx;
+$uni-font-size-hg: 40rpx;
+
+/* 图片尺寸 */
+$uni-img-size-mini: 28rpx;
+$uni-img-size-sm: 40rpx;
+$uni-img-size-base: 52rpx;
+$uni-img-size-lg: 64rpx;
+$uni-img-size-lm: 80rpx;
+$uni-img-size-hg: 168rpx;
+
+/* Border Radius */
+$uni-border-radius-sm: 4rpx;
+$uni-border-radius-base: 6rpx;
+$uni-border-radius-lg: 12rpx;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 10rpx;
+$uni-spacing-row-base: 20rpx;
+$uni-spacing-row-lg: 30rpx;
+$uni-spacing-row-hg: 50rpx;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 8rpx;
+$uni-spacing-col-base: 16rpx;
+$uni-spacing-col-lg: 20rpx;
+$uni-spacing-col-lm: 30rpx;
+$uni-spacing-col-hg: 50rpx;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2c405a; // 文章标题颜色
+$uni-font-size-title: 40rpx;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle: 36rpx;
+$uni-color-paragraph: #3f536e; // 文章段落颜色
+$uni-font-size-paragraph: 30rpx;
+
+$base-color: #316b7a;
+$base-color-5: #49a0b6;
+$main-color: #85abb3;
+$contrast-color: #ad1528;
+
+$base-tab-height: 50rpx;
+$base-border-color: #979797;
+$base-chart-color: #9b9b9b;
+$base-background-color: rgba(220, 221, 222, 0.26);
+
+$mainGradual: linear-gradient(to top right, $base-color, $main-color);
+$itemGradual: linear-gradient(to top right, #4bc3e2, #ffffff);
+
+/* zgd统一样式汇总 */
+$zgd-logo-padding: 44rpx 36rpx 0rpx;
+$zgd-logo-w: 250rpx;
+$zgd-logo-h: 50rpx;
+
+$zgd-arrow-padding: 44rpx 20rpx 0rpx;
+
+$zgd-content-padding: 0rpx 36rpx;
+
+@mixin ellipsis() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

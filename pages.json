@@ -1,0 +1,108 @@
+{
+	"pages": [
+		{
+			"path": "pages/visitingcard/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/concernedscholars/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/claimresults/index",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/compage/achment-detail",
+			"style": {
+				"navigationBarTitleText": "成果详情"
+			}
+		},
+		{
+			"path": "pages/compage/scholar-detail",
+			"style": {
+				"navigationBarTitleText": "学者详情"
+			}
+		},
+		{
+			"path": "pages/compage/qcode",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/compage/modify-data",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/compage/user/extraInfo/picture",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/compage/user/extraInfo/researchDirection",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/compage/user/extraInfo/englishName",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/compage/achment-manage",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationStyle": "custom",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#316b7a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/visitingcard/index",
+				"text": "我的名片",
+				"iconPath": "static/tab-1.png",
+				"selectedIconPath": "static/tab-1-active.png"
+			},
+			{
+				"pagePath": "pages/concernedscholars/index",
+				"text": "关注学者",
+				"iconPath": "static/tab-2.png",
+				"selectedIconPath": "static/tab-2-active.png"
+			},
+			{
+				"pagePath": "pages/claimresults/index",
+				"text": "成果认领",
+				"iconPath": "static/tab-3.png",
+				"selectedIconPath": "static/tab-3-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}

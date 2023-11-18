@@ -1,0 +1,1 @@
+<view class="container"><view class="video-item"><block wx:for="{{videoList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><video src="{{item.fileUrl}}"></video></block></view></view>

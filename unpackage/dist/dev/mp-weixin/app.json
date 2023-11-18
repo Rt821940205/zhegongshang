@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/functionintroduction/index",
+    "pages/liveoperationaltraining/index",
+    "pages/my/index",
+    "pages/my/trainingRecord/index",
+    "pages/my/myInfo/index",
+    "pages/functionintroduction/details/index",
+    "pages/search/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/functionintroduction/index",
+        "text": "功能介绍",
+        "iconPath": "static/dianzan.png",
+        "selectedIconPath": "static/ruobao.png"
+      },
+      {
+        "pagePath": "pages/liveoperationaltraining/index",
+        "text": "实战训练",
+        "iconPath": "static/yiwen.png",
+        "selectedIconPath": "static/ruobao.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "static/mumu.png",
+        "selectedIconPath": "static/ruobao.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

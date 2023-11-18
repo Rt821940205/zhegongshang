@@ -1,0 +1,1 @@
+<view class="wrap"><view data-event-opts="{{[['tap',[['goSearch',['getCollageList']]]]]}}" class="box" bindtap="__e">学校</view><view class="box">老师</view><view class="box">班级</view><view class="box">电话</view></view>
