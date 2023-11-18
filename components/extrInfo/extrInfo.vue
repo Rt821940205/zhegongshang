@@ -13,7 +13,7 @@
         <view>
           <u-icon
             name="arrow-right"
-            color="#316B7A"
+            color="#557ff7"
             size="18"
             @click="toHeader"
           />
@@ -27,7 +27,7 @@
         <view>
           <u-icon
             name="arrow-right"
-            color="#316B7A"
+            color="#557ff7"
             size="18"
             @click="toResearchDirection"
           />
@@ -42,7 +42,7 @@
         <view>
           <u-icon
             name="arrow-right"
-            color="#316B7A"
+            color="#557ff7"
             size="18"
             @click="toEnglishName"
           />

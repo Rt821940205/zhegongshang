@@ -16,7 +16,7 @@
       <view class="icon-item">
         <u-icon
           name="arrow-right"
-          color="#316B7A"
+          color="#557ff7"
           size="18"
           @click="toSubject"
         />

@@ -16,7 +16,7 @@
             <u-icon
               v-if="!item.isSelect"
               name="close"
-              color="#316B7A"
+              color="#557ff7"
               size="18"
               @click="remove"
             />
@@ -33,7 +33,7 @@
             </view>
             <view class="search-btn" @click="confirm"> 确定 </view>
           </view>
-          <u-icon v-else name="plus" size="18" color="#316B7A" @click="add" />
+          <u-icon v-else name="plus" size="18" color="#557ff7" @click="add" />
         </view>
       </view>
     </view>

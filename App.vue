@@ -28,25 +28,25 @@ export default {
     let admin = (this.code = getUrlParams("admin") || options.admin);
     this.options.code = code;
     //sso登录放开下面代码
-    if (!admin) {
-      if (accessToken === "") {
-        if (!options.code) {
-          this.windowTo();
-        } else {
-          try {
-            this.getaccess_token(code);
-          } catch (error) {
-            //重新定向登录地址
-            uni.clearStorageSync();
-            this.windowTo();
-          }
-        }
-      } else {
-        this.getUserId();
-      }
-    } else {
-      this.getaccess_token("112132");
-    }
+    // if (!admin) {
+    //   if (accessToken === "") {
+    //     if (!options.code) {
+    //       this.windowTo();
+    //     } else {
+    //       try {
+    //         this.getaccess_token(code);
+    //       } catch (error) {
+    //         //重新定向登录地址
+    //         uni.clearStorageSync();
+    //         this.windowTo();
+    //       }
+    //     }
+    //   } else {
+    //     this.getUserId();
+    //   }
+    // } else {
+    //   this.getaccess_token("112132");
+    // }
   },
   onShow: function () {
     // console.log('App Show')

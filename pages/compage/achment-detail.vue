@@ -77,7 +77,7 @@ export default {
     padding: 0 12rpx;
 
     .detail_left {
-      color: #316b7a;
+      color: $base-color;
       font-size: $uni-font-size-lg;
       font-weight: 500;
       line-height: 25px;

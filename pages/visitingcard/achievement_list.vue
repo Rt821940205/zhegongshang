@@ -225,7 +225,7 @@ export default {
         font-size: 24rpx;
         display: flex;
         justify-content: flex-end;
-        color: #316b7a;
+        color: $base-color;
       }
     }
 

@@ -15,8 +15,8 @@
             plain
             size="mini"
             closable
-            border-color="#316b7a"
-            color="#316b7a"
+            border-color="#557ff7"
+            color="#557ff7"
             @close="removeTag(item)"
           />
         </view>
@@ -40,8 +40,8 @@
             v-for="item in searchTags"
             :key="item"
             :text="item"
-            :color="selectInSearchTag(item) ? 'white' : '#316B7A'"
-            :background="selectInSearchTag(item) ? '#316B7A' : ''"
+            :color="selectInSearchTag(item) ? 'white' : '#557ff7'"
+            :background="selectInSearchTag(item) ? '#557ff7' : ''"
           />
         </view>
         <view @click.stop="save"> 确定 </view>

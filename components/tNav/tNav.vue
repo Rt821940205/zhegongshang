@@ -30,7 +30,7 @@ export default {
     color: {
       type: String,
       default: () => {
-        return "#316B7A";
+        return "#557ff7";
       },
     },
   },

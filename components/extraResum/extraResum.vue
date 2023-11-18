@@ -3,7 +3,7 @@
     <view class="title">* 请补充过往履历及曾用邮箱,以便发现您的更多成果。</view>
     <view v-for="(item, idx) in list" :key="idx">
       <view class="closeBox">
-        <u-icon name="close" size="18" color="#316B7A" @click="remove(item)" />
+        <u-icon name="close" size="18" color="#557ff7" @click="remove(item)" />
       </view>
       <view class="extraInfo-item">
         <view>时间</view>
@@ -25,7 +25,7 @@
 
     <view v-if="!isShowCard">
       <view class="closeBox">
-        <u-icon name="close" size="18" color="#316B7A" @click="remove" />
+        <u-icon name="close" size="18" color="#557ff7" @click="remove" />
       </view>
 
       <u--form :model="form" :rules="rules" ref="form1" :borderBottom="false">
@@ -95,7 +95,7 @@
         v-if="isShowCard"
         name="plus"
         size="18"
-        color="#316B7A"
+        color="#557ff7"
         @click="add"
       />
       <view v-else @click.stop="save"> 确定 </view>

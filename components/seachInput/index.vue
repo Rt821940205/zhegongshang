@@ -23,8 +23,8 @@
             :key="index"
             :text="item"
             size="mini"
-            border-color="#316b7a"
-            color="#316b7a"
+            border-color="#557ff7"
+            color="#557ff7"
             plain
           ></u-tag>
         </view>
@@ -40,7 +40,7 @@
         :showCancelButton="true"
         @cancel="show = false"
         @confirm="confirm"
-        confirmColor="#316b7a"
+        confirmColor="#557ff7"
       >
         <view class="completion_content">
           <view class="completion_p"

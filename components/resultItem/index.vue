@@ -101,7 +101,7 @@ export default {
 <style scoped lang="scss">
 .resultItem-container {
   position: relative;
-  border: 3rpx solid #316b7a;
+  border: 3rpx solid $base-color;
   padding: 24rpx 24rpx 6rpx 60rpx;
   background: linear-gradient(
     to bottom right,
@@ -113,7 +113,7 @@ export default {
     position: absolute;
     left: 10rpx;
     font-size: $uni-font-size-base;
-    color: #316b7a;
+    color: $base-color;
   }
 
   ::v-deep .u-text {

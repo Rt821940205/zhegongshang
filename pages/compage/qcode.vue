@@ -55,7 +55,7 @@ export default {
       val: "",
       size: 200,
       unit: "px",
-      background: "#316B7A",
+      background: "#557ff7",
       foreground: "#ffffff",
       pdground: "#ffffff",
     };
@@ -95,7 +95,7 @@ export default {
 }
 .app {
   height: 100%;
-  background: linear-gradient(to bottom, #85abb3, #316b7a);
+  background: linear-gradient(to bottom, #85abb3, $base-color);
   .header {
     padding: $zgd-arrow-padding;
   }
