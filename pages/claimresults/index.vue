@@ -340,7 +340,7 @@ export default {
       border-image: linear-gradient(
           270deg,
           rgba(255, 255, 255, 1),
-          rgba(49, 107, 122, 1)
+          rgba(85, 127, 247, 1)
         )
         1 1;
     }

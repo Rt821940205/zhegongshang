@@ -95,7 +95,7 @@ export default {
 }
 .app {
   height: 100%;
-  background: linear-gradient(to bottom, #85abb3, $base-color);
+  background: linear-gradient(to bottom, #557ff7, $base-color);
   .header {
     padding: $zgd-arrow-padding;
   }
@@ -113,7 +113,7 @@ export default {
       .user {
         display: flex;
         flex-flow: row nowrap;
-        border-bottom: 1rpx solid #85abb3;
+        border-bottom: 1rpx solid #557ff7;
         margin-top: $uni-spacing-col-hg;
         padding-bottom: $uni-spacing-col-hg;
         &__pic {

@@ -138,8 +138,8 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  background: -webkit-linear-gradient(bottom left, $base-color, #85abb3);
-  background: linear-gradient(to top right, $base-color, #85abb3);
+  background: -webkit-linear-gradient(bottom left, $base-color, #557ff7);
+  background: linear-gradient(to top right, $base-color, #557ff7);
   padding: 44rpx 36rpx;
 
   .header_t {

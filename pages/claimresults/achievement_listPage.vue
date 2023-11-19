@@ -155,10 +155,10 @@ export default {
     border: 1px $base-color solid;
     padding: $uni-spacing-row-lg;
     background: -webkit-linear-gradient(top left,
-        rgba(75, 195, 226, 0.2) 0%,
+        rgba(85, 127, 247, 0.2) 0%,
         white 30%);
     background: linear-gradient(to bottom right,
-        rgba(75, 195, 226, 0.2) 0%,
+        rgba(85, 127, 247, 0.2) 0%,
         white 30%);
     display: flex;
     margin-bottom: 15rpx;

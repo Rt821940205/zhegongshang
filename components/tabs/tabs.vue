@@ -39,7 +39,7 @@ export default {
   margin-bottom: 60rpx;
   .tabs-item {
     font-size: 30rpx;
-    color: $main-color;
+    color: #557ff77f;
     width: 33%;
     text-align: center;
   }

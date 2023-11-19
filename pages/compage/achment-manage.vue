@@ -153,7 +153,7 @@ export default {
       height: 178rpx;
       background: linear-gradient(
         to bottom right,
-        rgba(75, 195, 226, 0.2) 0%,
+        rgba(85, 127, 247, 0.2) 0%,
         rgba(255, 255, 255, 1) 30%
       );
       display: flex;

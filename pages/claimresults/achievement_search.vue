@@ -47,12 +47,12 @@ export default {
     padding: 20rpx;
     background: -webkit-linear-gradient(
       top left,
-      rgba(75, 195, 226, 0.2) 0%,
+      rgba(85, 127, 247, 0.2) 0%,
       white 30%
     );
     background: linear-gradient(
       to bottom right,
-      rgba(75, 195, 226, 0.2) 0%,
+      rgba(85, 127, 247, 0.2) 0%,
       white 30%
     );
     display: flex;

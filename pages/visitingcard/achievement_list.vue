@@ -165,11 +165,11 @@ export default {
 
     .list_item {
       padding: 30rpx 40rpx 40rpx 56rpx;
-      background: -webkit-linear-gradient(top left,
-          rgba(75, 195, 226, 0.2) 0%,
-          white 30%);
+      // background: -webkit-linear-gradient(top left,
+      //     rgba(85, 127, 247, 0.2) 0%,
+      //     white 30%);
       background: linear-gradient(to bottom right,
-          rgba(75, 195, 226, 0.2) 0%,
+          rgba(85, 127, 247, 0.2) 0%,
           white 30%);
 
       .item_header {
